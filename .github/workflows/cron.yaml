@@ -19,6 +19,7 @@ jobs:
 
       - name: Commit and push changes 23f2002498@ds.study.iitm.ac.in
         run: |
+          git pull
           git config user.name "23f2002498"
           git config user.email "23f2002498@ds.study.iitm.ac.in"
           git add last_update.txt
